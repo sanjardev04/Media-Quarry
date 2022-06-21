@@ -1,0 +1,30 @@
+/* For tablets */
+@media screen and (max-width:990px) {
+    .title{
+        font-size: 40px;
+        color: dodgerblue;
+    }
+    .grid_icon{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .menu{
+        display: block;
+    }
+    .collection{
+        display: none;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .title{
+        font-size: 20px;
+        color: gold;
+    }
+    .grid_icon{
+        grid-template-columns: 1fr;
+    }
+    nav{
+        padding: 0 20px;
+        font-size: ;
+    }
+}
