@@ -22,6 +22,8 @@
 .grid_item{
     height: 200px;
     border: 2px solid red;
+    display: grid;
+    place-items: center;
 }
 
 .flex_con{
@@ -37,6 +39,9 @@
     height: 200px;
     border: 2px solid blue;
     margin: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 nav{
